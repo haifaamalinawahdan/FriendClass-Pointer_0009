@@ -15,5 +15,18 @@ private:
     double d1, d2;
     double sisiA, sisiB;
 
+public:
+    void inputData()
+        {
+            cout << "===== Input Layang-Layang =====" << endl;
+            cout << "Masukkan d1 Layang-layang: ";
+            cin >> d1;
+            cout << "Masukkan d2 Layang-layang: ";
+            cin >> d2;
+            cout << "Masukkan sisi A : ";
+            cin >> sisiA;
+            cout << "Masukkan sisi B : ";
+            cin >> sisiB;
+        }
 
 };
