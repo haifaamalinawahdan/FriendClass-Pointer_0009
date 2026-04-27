@@ -38,3 +38,34 @@ public:
         return 2 * (sisiA + sisiB);
     }
 };
+
+class BelahKetupat
+{
+    private:
+    private:
+        double d1, d2; 
+        double sisi;
+
+
+    public:
+    void inputData()
+    {
+        cout << "===== Input Belah Ketupat =====" << endl;
+            cout << "Masukkan d1 : ";
+            cin >> d1;
+            cout << "Masukkan d2 : ";
+            cin >> d2;
+            cout << "Masukkan sisi : ";
+            cin >> sisi;
+    }
+
+    double hitungLuas()
+    {
+        return 0.5 * d1 * d2;
+    }
+
+    double hitungKeliling()
+        {
+            return 4 * sisi;
+        }
+};
