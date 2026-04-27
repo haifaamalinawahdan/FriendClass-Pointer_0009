@@ -69,3 +69,10 @@ class BelahKetupat
             return 4 * sisi;
         }
 };
+
+void tampilkanKeliling(LayangLayang& lk, BelahKetupat& bk)
+{
+    cout << "\n--- Hasil Keliling ---" << endl;
+    cout << "Keliling Layang-Layang : " << lk.hitungKeliling() << endl;
+    cout << "Keliling Belah Ketupat : " << bk.hitungKeliling() << endl;
+}
